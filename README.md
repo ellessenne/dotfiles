@@ -28,3 +28,7 @@ In brief, I selected a dyslexia-friendly background (#FFFBEB) with a black font 
 The font of choice is [Fira Code](https://github.com/tonsky/FiraCode) 12pt with a 1 character spacing and a 1.25 line spacing.
 
 ![ellessenne terminal screenshot](https://raw.githubusercontent.com/ellessenne/dotfiles/master/ellessenne-terminal.png)
+
+### Visual Studio Code Settings
+
+I also include custom settings for Visual Studio Code in the [vscode-settings.json](https://raw.githubusercontent.com/ellessenne/dotfiles/master/vscode-settings.json) file.
