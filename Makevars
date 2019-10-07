@@ -1,8 +1,8 @@
 VER=-9
 CC=gcc$(VER)
 CXX=g++$(VER)
-CFLAGS=-mtune=native -g -O2 -Wall -pedantic -Wconversion
-CXXFLAGS=-mtune=native -g -O2 -Wall -pedantic -Wconversion
+CFLAGS=-mtune=native -g -O2 -Wall -pedantic
+CXXFLAGS=-mtune=native -g -O2 -Wall -pedantic
 CXX14FLAGS=-O3 -march=native -mtune=native
 CXX14FLAGS += -arch x86_64 -ftemplate-depth-256
 FLIBS=-L/usr/local/Cellar/gcc/9.2.0_1/lib/gcc/9
