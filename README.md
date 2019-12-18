@@ -12,7 +12,7 @@ First, install the Xcode command line tools:
 xcode-select --install
 ```
 
-Then, force re-install the header files:
+Then, force re-install the header files (for macOS 10.14 Mojave):
 
 
 ```bash
@@ -20,6 +20,29 @@ sudo installer -pkg /Library/Developer/CommandLineTools/Packages/macOS_SDK_heade
 ```
 
 [Source](https://donatstudios.com/MojaveMissingHeaderFiles)
+
+### Locale Warnings on macOS
+
+Sometimes the following locale-related warnings appear when installing R on macOS:
+
+```
+During startup - Warning messages:
+1: Setting LC_CTYPE failed, using "C" 
+2: Setting LC_COLLATE failed, using "C" 
+3: Setting LC_TIME failed, using "C" 
+4: Setting LC_MESSAGES failed, using "C" 
+5: Setting LC_MONETARY failed, using "C" 
+[R.app GUI 1.70 (7735) x86_64-apple-darwin15.6.0]
+
+WARNING: You're using a non-UTF8 locale, therefore only ASCII characters will work.
+Please read R for Mac OS X FAQ (see Help) section 9 and adjust your system preferences accordingly.
+```
+
+This can be fixed by writing the following command in a terminal:
+
+```bash
+defaults write org.R-project.R force.LANG en_US.UTF-8
+```
 
 ### Terminal Profile
 
@@ -31,7 +54,7 @@ The font of choice is [Fira Code](https://github.com/tonsky/FiraCode) 12pt with 
 
 ### Visual Studio Code Settings
 
-I also include custom settings for Visual Studio Code in the [vscode-settings.json](https://raw.githubusercontent.com/ellessenne/dotfiles/master/vscode-settings.json) file.
+Custom settings for Visual Studio Code are included as the [vscode-settings.json](https://raw.githubusercontent.com/ellessenne/dotfiles/master/vscode-settings.json) file.
 
 ### Homebrew
 
