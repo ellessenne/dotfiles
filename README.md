@@ -54,8 +54,12 @@ The font of choice is [Fira Code](https://github.com/tonsky/FiraCode) 12pt with 
 
 ### Visual Studio Code Settings
 
-Custom settings for Visual Studio Code are included as the [vscode-settings.json](https://raw.githubusercontent.com/ellessenne/dotfiles/master/vscode-settings.json) file.
+Custom settings for Visual Studio Code are included as the `[vscode-settings.json](https://raw.githubusercontent.com/ellessenne/dotfiles/master/vscode-settings.json) file.
 
 ### Homebrew
 
 I also set up the Makevars file to use `gcc` installed from Homebrew, as described in [here](https://nistara.net/post/compile-issues-r/).
+
+### Git Configuration
+
+I set up the [.gitconfig](https://raw.githubusercontent.com/ellessenne/dotfiles/master/.gitconfig) file (usually located in `~`) to use Visual Studio Code as the default text editor.
