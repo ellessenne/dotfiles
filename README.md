@@ -27,11 +27,11 @@ Sometimes the following locale-related warnings appear when installing R on macO
 
 ```
 During startup - Warning messages:
-1: Setting LC_CTYPE failed, using "C" 
-2: Setting LC_COLLATE failed, using "C" 
-3: Setting LC_TIME failed, using "C" 
-4: Setting LC_MESSAGES failed, using "C" 
-5: Setting LC_MONETARY failed, using "C" 
+1: Setting LC_CTYPE failed, using "C"
+2: Setting LC_COLLATE failed, using "C"
+3: Setting LC_TIME failed, using "C"
+4: Setting LC_MESSAGES failed, using "C"
+5: Setting LC_MONETARY failed, using "C"
 [R.app GUI 1.70 (7735) x86_64-apple-darwin15.6.0]
 
 WARNING: You're using a non-UTF8 locale, therefore only ASCII characters will work.
@@ -63,3 +63,7 @@ I also set up the Makevars file to use `gcc` installed from Homebrew, as describ
 ### Git Configuration
 
 I set up the [.gitconfig](https://raw.githubusercontent.com/ellessenne/dotfiles/master/.gitconfig) file (usually located in `~`) to use Visual Studio Code as the default text editor.
+
+### .Rprofile
+
+The custom .Rprofile goes in `~`, and **must** end in a newline!
