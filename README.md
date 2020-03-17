@@ -27,11 +27,11 @@ Sometimes the following locale-related warnings appear when installing R on macO
 
 ```
 During startup - Warning messages:
-1: Setting LC_CTYPE failed, using "C" 
-2: Setting LC_COLLATE failed, using "C" 
-3: Setting LC_TIME failed, using "C" 
-4: Setting LC_MESSAGES failed, using "C" 
-5: Setting LC_MONETARY failed, using "C" 
+1: Setting LC_CTYPE failed, using "C"
+2: Setting LC_COLLATE failed, using "C"
+3: Setting LC_TIME failed, using "C"
+4: Setting LC_MESSAGES failed, using "C"
+5: Setting LC_MONETARY failed, using "C"
 [R.app GUI 1.70 (7735) x86_64-apple-darwin15.6.0]
 
 WARNING: You're using a non-UTF8 locale, therefore only ASCII characters will work.
@@ -55,10 +55,13 @@ The font of choice is [Fira Code](https://github.com/tonsky/FiraCode) 12pt with 
 ### Visual Studio Code Settings
 
 Custom settings for Visual Studio Code are included as the `[vscode-settings.json](https://raw.githubusercontent.com/ellessenne/dotfiles/master/vscode-settings.json) file.
+I actually use [VSCodium](https://github.com/VSCodium/vscodium) -- it's much better!
 
-### Homebrew
+### Compilers
 
-I also set up the Makevars file to use `gcc` installed from Homebrew, as described in [here](https://nistara.net/post/compile-issues-r/).
+I follow [this](https://thecoatlessprofessor.com/programming/cpp/r-compiler-tools-for-rcpp-on-macos/) guide to set up compilers using `clang` 8 and `gfortran` 6.1 - after lots of pain...
+
+Don't use `gcc` from Homebrew!
 
 ### Git Configuration
 
