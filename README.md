@@ -66,3 +66,7 @@ Don't use `gcc` from Homebrew!
 ### Git Configuration
 
 I set up the [.gitconfig](https://raw.githubusercontent.com/ellessenne/dotfiles/master/.gitconfig) file (usually located in `~`) to use Visual Studio Code as the default text editor.
+
+### .Rprofile
+
+The custom .Rprofile goes in `~`, and **must** end in a newline!
