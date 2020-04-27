@@ -47,7 +47,7 @@ defaults write org.R-project.R force.LANG en_US.UTF-8
 ### Terminal Profile
 
 I decided to create a customised terminal profile for macOS after listening to [this](https://atp.fm/episodes/341).
-In brief, I selected a dyslexia-friendly background (#FFFBEB) with a black font and a red, block-style cursor.
+In brief, I selected a dyslexia-friendly background (#FFFBEB) with an (almost) black font (_Lead_ in the _Crayons_ palette selector) and a red, block-style cursor.
 The font of choice is [Fira Code](https://github.com/tonsky/FiraCode) 12pt with a 1 character spacing and a 1.25 line spacing.
 
 ![ellessenne terminal screenshot](https://raw.githubusercontent.com/ellessenne/dotfiles/master/ellessenne-terminal.png)

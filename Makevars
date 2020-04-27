@@ -3,9 +3,6 @@ CFLAGS=-isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk
 CCFLAGS=-isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk
 CXXFLAGS=-isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk
 CPPFLAGS=-isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include
-
-SHLIB_CXXLDFLAGS+=-Wl,-rpath,\${R_HOME}/lib \${R_HOME}/lib/libc++abi.1.dylib
-SHLIB_CXX14LDFLAGS+=-Wl,-rpath,\${R_HOME}/lib \${R_HOME}/lib/libc++abi.1.dylib
 # clang: end
 
 FC=/usr/local/gfortran/bin/gfortran
