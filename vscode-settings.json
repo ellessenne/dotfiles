@@ -1,12 +1,13 @@
 {
-    "editor.fontFamily": "'Fira Code', Menlo, Monaco, 'Courier New', monospace",
     "editor.fontLigatures": true,
     "editor.wordWrap": "on",
-    "workbench.colorTheme": "Dracula",
+    "workbench.colorTheme": "GitHub Light",
     "diffEditor.ignoreTrimWhitespace": false,
     "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
     "files.trimTrailingWhitespace": true,
     "editor.fontSize": 14,
-    "window.zoomLevel": 0
+    "window.zoomLevel": 0,
+    "latex-workshop.view.pdf.viewer": "tab",
+    "editor.fontFamily": "'Latin Modern Mono', monospace"
 }
