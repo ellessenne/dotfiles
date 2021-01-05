@@ -41,9 +41,7 @@ I moved away from [VSCodium](https://github.com/VSCodium/vscodium) once they upd
 
 ### Compilers
 
-I follow [this](https://thecoatlessprofessor.com/programming/cpp/r-compiler-tools-for-rcpp-on-macos/) guide to set up compilers using `clang` 8 and `gfortran` 6.1 - after lots of pain...
-
-Don't use `gcc` from Homebrew!
+Starting from version 4.0.0, R uses the default Apple `clang` (from Command Line Tools) and a standard `gfortran` installation, e.g. from [here](https://github.com/fxcoudert/gfortran-for-macOS/releases).
 
 ### Git Configuration
 

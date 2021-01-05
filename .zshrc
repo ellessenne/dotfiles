@@ -1,5 +1,5 @@
 # Aliases
-alias brw="brew update && brew upgrade && brew cleanup && brew cask upgrade"
+alias brw="brew update && brew upgrade && brew cleanup && brew upgrade --cask"
 alias rstudio="open -a RStudio"
 alias rprofile="code ~/.Rprofile"
 alias renviron="code ~/.Renviron"
@@ -16,3 +16,6 @@ export PATH="/usr/local/opt/sqlite/bin:$PATH"
 export LDFLAGS="-L/usr/local/opt/sqlite/lib"
 export CPPFLAGS="-I/usr/local/opt/sqlite/include"
 export PKG_CONFIG_PATH="/usr/local/opt/sqlite/lib/pkgconfig"
+
+# sbin formulae from homebrew
+export PATH="/usr/local/sbin:$PATH"

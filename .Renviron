@@ -1,4 +1,3 @@
 R_LIBS=~/R-lib
 _R_CHECK_LENGTH_1_CONDITION_=verbose
 _R_CHECK_LENGTH_1_LOGIC2_=verbose
-PATH="/usr/local/clang8/bin:${PATH}"

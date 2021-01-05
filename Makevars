@@ -6,4 +6,4 @@ CPPFLAGS=-isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/lo
 # clang: end
 
 FC=/usr/local/gfortran/bin/gfortran
-FLIBS = -L/usr/local/gfortran/lib/gcc/x86_64-apple-darwin18/8.2.0 -L/usr/local/gfortran/lib -lgfortran -lquadmath -lm
+FLIBS = -L/usr/local/gfortran/lib/gcc/x86_64-apple-darwin20/10.2.0 -L/usr/local/gfortran/lib -lgfortran -lquadmath -lm
