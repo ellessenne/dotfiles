@@ -7,6 +7,9 @@ alias zshrc="code ~/.zshrc"
 alias zshenv="code ~/.zshenv"
 alias gitconfig="code ~/.gitconfig"
 
+# gfortran
+export PATH="/usr/local/gfortran/bin:$PATH"
+
 # Autocompletion
 autoload -U compinit
 compinit
@@ -19,3 +22,10 @@ export PKG_CONFIG_PATH="/usr/local/opt/sqlite/lib/pkgconfig"
 
 # sbin formulae from homebrew
 export PATH="/usr/local/sbin:$PATH"
+
+# TeXcount
+export PATH="/Users/ellessenne/Dev/TeXcount:$PATH"
+alias texcount="texcount.pl"
+
+# language
+export LANG=en_GB.UTF-8
