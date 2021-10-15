@@ -36,7 +36,7 @@ The font of choice is Operator Mono, 14 pt, with a 1 character spacing and a 1.2
 
 ### Visual Studio Code Settings
 
-Custom settings for Visual Studio Code are included as the `[vscode-settings.json](https://raw.githubusercontent.com/ellessenne/dotfiles/master/vscode-settings.json) file.
+Custom settings for Visual Studio Code are included as the [`vscode-settings.json`](https://raw.githubusercontent.com/ellessenne/dotfiles/master/vscode-settings.json) file.
 I moved away from [VSCodium](https://github.com/VSCodium/vscodium) once they updated their icon to a (in my opinion) ugly green blob, and I wanted to try some extensions that are not compatible with VSCodium; I might go back to it at some point.
 Since October 2021, I have been trying their settings sync service through GitHub, so this is probably redundant; despite that, I am keeping the `settings.json` here as a backup.
 
