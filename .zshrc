@@ -29,3 +29,7 @@ alias texcount="texcount.pl"
 
 # language
 export LANG=en_GB.UTF-8
+
+# GPG stuff
+GPG_TTY=$(tty)
+export GPG_TTY

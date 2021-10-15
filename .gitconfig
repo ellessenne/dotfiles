@@ -1,2 +1,27 @@
 [core]
+	excludesfile = /Users/ellessenne/.gitignore_global
 	editor = "code --wait"
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path =
+[mergetool "sourcetree"]
+	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[user]
+	name = Alessandro Gasparini
+# Here two other fields are to be added, to config GPG:
+#	email = [...]
+#	signingkey = [...]
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[commit]
+	template = /Users/ellessenne/.stCommitMsg
+	gpgsign = true
+	gpgprogram = gpg
+[alias]
+	amend = commit --amend
+[gpg]
+	program = /usr/local/MacGPG2/bin/gpg
