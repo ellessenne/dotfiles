@@ -1,13 +1,26 @@
 {
     "editor.fontLigatures": true,
     "editor.wordWrap": "on",
-    "workbench.colorTheme": "GitHub Light",
+    "workbench.colorTheme": "GitHub Light Default",
     "diffEditor.ignoreTrimWhitespace": false,
     "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
     "files.trimTrailingWhitespace": true,
-    "editor.fontSize": 14,
     "window.zoomLevel": 0,
     "latex-workshop.view.pdf.viewer": "tab",
-    "editor.fontFamily": "'Latin Modern Mono', monospace"
+    "editor.fontFamily": "'Operator Mono', 'Victor Mono', monospace",
+    "editor.fontSize": 14,
+    "latex-workshop.latex.autoBuild.run": "never",
+    "workbench.editorAssociations": {
+        "*.pdf": "latex-workshop-pdf-hook"
+    },
+    "extensions.ignoreRecommendations": true,
+    "colorize.include": [
+        "**/*.css",
+        "**/*.scss",
+        "**/*.sass",
+        "**/*.less",
+        "**/*.styl",
+        "**/*.js"
+    ]
 }
