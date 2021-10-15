@@ -1,7 +1,7 @@
 # dotfiles
 
 A collection of dotfiles for macOS, mostly for my own use -- I always seem to forget about these!
-The last update of this repository is after upgrading to macOS 11 Big Sur.
+The last update of this repository includes settings from a machine running macOS Big Sur 11.6.
 
 ### Locale Warnings on macOS
 
@@ -30,7 +30,7 @@ defaults write org.R-project.R force.LANG en_US.UTF-8
 
 I decided to create a customised terminal profile for macOS after listening to [this](https://atp.fm/episodes/341).
 In brief, I selected a dyslexia-friendly background (#FFFBEB) with an (almost) black font (_Lead_ in the _Crayons_ palette selector) and a red, block-style cursor.
-The font of choice is [Latin Modern Mono](http://www.gust.org.pl/gust/projects/e-foundry/latin-modern) 14pt with a 1 character spacing and a 1.25 line spacing.
+The font of choice is Operator Mono, 14 pt, with a 1 character spacing and a 1.25 line spacing.
 
 ![ellessenne terminal screenshot](https://raw.githubusercontent.com/ellessenne/dotfiles/master/ellessenne-terminal.png)
 
@@ -38,6 +38,7 @@ The font of choice is [Latin Modern Mono](http://www.gust.org.pl/gust/projects/e
 
 Custom settings for Visual Studio Code are included as the `[vscode-settings.json](https://raw.githubusercontent.com/ellessenne/dotfiles/master/vscode-settings.json) file.
 I moved away from [VSCodium](https://github.com/VSCodium/vscodium) once they updated their icon to a (in my opinion) ugly green blob, and I wanted to try some extensions that are not compatible with VSCodium; I might go back to it at some point.
+Since October 2021, I have been trying their settings sync service through GitHub, so this is probably redundant; despite that, I am keeping the `settings.json` here as a backup.
 
 ### Compilers
 
