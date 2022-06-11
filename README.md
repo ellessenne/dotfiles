@@ -34,6 +34,10 @@ The font of choice is Operator Mono, 14 pt, with a 1 character spacing and a 1.2
 
 ![ellessenne terminal screenshot](https://raw.githubusercontent.com/ellessenne/dotfiles/master/ellessenne-terminal.png)
 
+I also started testing [iTerm2](https://iterm2.com), for which I make a custom profile (similar to the built-in macOS terminal) as well:
+
+![ellessenne iTerm2 screenshot](https://raw.githubusercontent.com/ellessenne/dotfiles/master/ellessenne-iTerm2.png)
+
 ### Visual Studio Code Settings
 
 Custom settings for Visual Studio Code are included as the [`vscode-settings.json`](https://raw.githubusercontent.com/ellessenne/dotfiles/master/vscode-settings.json) file.
