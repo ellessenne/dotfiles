@@ -1,7 +1,7 @@
 # dotfiles
 
 A collection of dotfiles for macOS, mostly for my own use -- I always seem to forget about these!
-The last update of this repository includes settings from a machine running macOS Big Sur 11.6.
+The last update of this repository includes settings from a machine running macOS Monterey 12.5.
 
 ### Locale Warnings on macOS
 
@@ -30,13 +30,9 @@ defaults write org.R-project.R force.LANG en_US.UTF-8
 
 I decided to create a customised terminal profile for macOS after listening to [this](https://atp.fm/episodes/341).
 In brief, I selected a dyslexia-friendly background (#FFFBEB) with an (almost) black font (_Lead_ in the _Crayons_ palette selector) and a red, block-style cursor.
-The font of choice is Operator Mono, 14 pt, with a 1 character spacing and a 1.25 line spacing.
+The font of choice is Operator Mono, 14 pt, with a 1 character spacing and a 1.5 line spacing.
 
 ![ellessenne terminal screenshot](https://raw.githubusercontent.com/ellessenne/dotfiles/master/ellessenne-terminal.png)
-
-I also started testing [iTerm2](https://iterm2.com), for which I make a custom profile (similar to the built-in macOS terminal) as well:
-
-![ellessenne iTerm2 screenshot](https://raw.githubusercontent.com/ellessenne/dotfiles/master/ellessenne-iTerm2.png)
 
 ### Visual Studio Code Settings
 
