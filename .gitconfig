@@ -1,3 +1,5 @@
+[init]
+	defaultBranch = "main"
 [core]
 	excludesfile = /Users/ellessenne/.gitignore_global
 	editor = "code --wait"
@@ -9,16 +11,15 @@
 	trustExitCode = true
 [user]
 	name = Alessandro Gasparini
-# Here two other fields are to be added, to config GPG:
-#	email = [...]
-#	signingkey = [...]
+# Other items for GPG signing:
+    # email = [...]
+	# signingkey = [...]
 [filter "lfs"]
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
 	required = true
 [commit]
-	template = /Users/ellessenne/.stCommitMsg
 	gpgsign = true
 	gpgprogram = gpg
 [alias]
